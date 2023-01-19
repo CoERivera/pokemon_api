@@ -27,7 +27,7 @@ const FetchComponent = () => {
     return (
         <div className="container d-flex">
             <ol className="list mx-auto justify-content-center mt-5">
-                <button className="btn btn-primary" onClick={FetchPokémon}>
+                <button className="btn btn-primary mb-2" onClick={FetchPokémon}>
                     Fetch Pokémon
                 </button>
                 <PokémonList allPokémon={allPokémon}/>
